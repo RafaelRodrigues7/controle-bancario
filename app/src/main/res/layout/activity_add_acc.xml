@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GridLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="1"
+    android:rowCount="5"
+    android:orientation="vertical"
+    android:layout_margin="25dp"
+    tools:context="br.edu.ifspsaocarlos.controlebancario.activity.AddAccActivity" >
+
+    <TextView
+        android:layout_margin="20dp"
+        android:id="@+id/descTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição"
+        android:textSize="40dp"/>
+
+    <EditText
+        android:id="@+id/descEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="40dp"
+        android:text="" />
+
+    <TextView
+        android:layout_margin="20dp"
+        android:id="@+id/valorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor Inicial"
+        android:textSize="40dp"/>
+
+    <EditText
+        android:id="@+id/valorEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="40dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btAddAcc"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Adicionar Conta"
+        android:textSize="20dp"/>
+
+</GridLayout>
