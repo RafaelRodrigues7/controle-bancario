@@ -141,7 +141,6 @@ public class DAO {
                     + c.getId(), null);
 
         database.close();
-        System.out.println("Update saldo conta feito");
 
     }
 
@@ -274,8 +273,6 @@ public class DAO {
 
                 DateFormat df = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
                 String reportDate = df.format(thedate);
-                System.out.println("DATA");
-                System.out.println(reportDate);
                 t.setData(reportDate);
             } catch (ParseException e) {
                 e.printStackTrace();
